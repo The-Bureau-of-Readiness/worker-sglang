@@ -18,7 +18,7 @@ def setup_env():
             {
                 "HF_HOME": f"{BASE_DIR}/hf_cache",
                 "MODEL_NAME": "openchat/openchat-3.5-0106",
-                "HF_HUB_ENABLE_HF_TRANSFER": "1",
+                "HF_XET_HIGH_PERFORMANCE": "1",
                 "TENSORIZE": "1",
                 "TENSORIZER_NUM_GPUS": "1",
                 "DTYPE": "auto",

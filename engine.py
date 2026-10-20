@@ -24,7 +24,10 @@ class SGlangEngine:
         command = [
             "python3",
             "-m",
-            "sglang.launch_server",
+            "sglang",
+            "serve",
+            "--model-path",
+            self.model,
             "--host",
             self.host,
             "--port",
